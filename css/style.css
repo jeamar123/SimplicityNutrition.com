@@ -1,0 +1,188 @@
+/*
+Theme Name: Creative 360 Travel and Tours Theme
+Theme URI: 
+Author: Billy Joel Ranario
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+*/
+
+/*
+orange: ff3c01;
+red: ba0400;
+*/
+
+
+/* ---------* Fonts *---------------- */
+@import url('fonts.css') screen;
+/* ---------* end: Fonts *----------- */
+
+/* ---------* Reset CSS *------------ */
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+body {
+	font-family: raleway-reg, arial, sans-serif;	
+    min-width: 100%;
+}
+h1 { 
+    font-size: 2.2em; 
+} 
+h2 { 
+    font-size: 2.0em;     
+} 
+h3 { 
+    font-size: 1.8em; 
+} 
+h4 { 
+    font-size: 1.6em;     
+} 
+h5 { 
+    font-size: 1.4em;     
+} 
+p { 
+    font-size: 1.2em;     
+}
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+.body-wrapper{
+    margin: 0 auto;
+}
+
+#body-wrapper-content{
+    border: 7px solid #d9d9d9;
+    margin: 30px auto;
+    padding: 30px;    
+}
+
+.social-links-wrapper{
+    margin: 10px 0 0 0;
+}
+
+.box-wrapper{
+    padding: 10px 0 20px 0;  
+}
+
+.box-content{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.star-line {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid #A8A8A8;
+    position: relative;
+}
+.star-bg {
+    position: relative;
+    width: 68px;
+    margin: 0 auto;
+    background-color: #fff;
+    top: 6px;
+}
+.stars-img {
+    background: transparent url(../img/star.png) repeat-x;
+    width: 39px;
+    height: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-wrapper {
+    font-size: 60px;
+}
+.icon-wrapper .fa {
+    background-color: #fff;
+    border-radius: 40% 40%;
+    padding: 28px 28px;
+    color: #6FA4D4;
+    border: 4px solid #6FA4D4;
+}
+
+#partners{
+    border-top: 1px solid #aaa;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+#partners a{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#partners a img{
+    border:none;
+}
+
+#partners a img:hover{
+    transform: scale(1.1);
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+#copyright{
+    margin: 30px auto;
+}
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+.center-align{
+    text-align: center;
+}
+
+#banner-content{
+    border:2px solid #999;
+}
+
+.social-links a i{
+    background-color: #999;
+    height: 25px;
+    width: 25px;
+    border-radius: 50% 50%;
+    padding-top: 6px;
+    transition: all 0.3s ease-in-out;
+    webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa {
+    color: #fff;
+    display: inline-block;
+}
+a:hover .fa-facebook {
+    background-color: #1867A9;
+    transform: rotate(360deg);
+}
+
+a:hover .fa-twitter {
+    background-color: #1867A9;
+    transform: rotate(360deg);
+}
+
+a:hover .fa-youtube {
+    background-color: #1867A9;
+    transform: rotate(360deg);
+}
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+
+/* ---------* end: Override *--------- */
